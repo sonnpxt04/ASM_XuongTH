@@ -1,0 +1,338 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Guitar",
+        "description": "Các loại guitar khác nhau: acoustic, electric, bass.",
+        "isVisible": true,
+        "views": 150
+      },
+      {
+        "id": 2,
+        "name": "Piano",
+        "description": "Các loại đàn piano như grand, upright, digital.",
+        "isVisible": true,
+        "views": 120
+      },
+      {
+        "id": 3,
+        "name": "Trống",
+        "description": "Các loại trống như trống điện tử, trống jazz.",
+        "isVisible": false,
+        "views": 90
+      },
+      {
+        "id": 4,
+        "name": "Ukulele",
+        "description": "Các loại ukulele từ Hawaii.",
+        "isVisible": true,
+        "views": 75
+      },
+      {
+        "id": 5,
+        "name": "Synthesizer",
+        "description": "Các loại synthesizer cho nhạc điện tử.",
+        "isVisible": true,
+        "views": 65
+      },
+      {
+        "id": 6,
+        "name": "Violin",
+        "description": "Các loại violin cho mọi trình độ.",
+        "isVisible": false,
+        "views": 30
+      },
+      {
+        "id": 7,
+        "name": "Bass",
+        "description": "Nhạc cụ bass cho các ban nhạc.",
+        "isVisible": true,
+        "views": 40
+      },
+      {
+        "id": 8,
+        "name": "Trumpet",
+        "description": "Các loại trumpet cho nhạc jazz.",
+        "isVisible": true,
+        "views": 80
+      },
+      {
+        "id": 9,
+        "name": "Saxophone",
+        "description": "Nhạc cụ saxophone cho các buổi hòa nhạc.",
+        "isVisible": true,
+        "views": 60
+      },
+      {
+        "id": 10,
+        "name": "Accordion",
+        "description": "Nhạc cụ accordion cho âm nhạc dân gian.",
+        "isVisible": false,
+        "views": 25
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Guitar Acoustic Yamaha F310",
+        "price": 120,
+        "brandId": 1,
+        "categoryId": 1,
+        "description": "Guitar Acoustic Yamaha F310 là sản phẩm phù hợp cho người mới học.",
+        "image": "guitar_acoustic_yamaha_f310.jpg",
+        "quantity": 15,
+        "isVisible": true,
+        "views": 200
+      },
+      {
+        "id": 2,
+        "name": "Piano Điện Roland FP-30",
+        "price": 700,
+        "brandId": 2,
+        "categoryId": 2,
+        "description": "Piano điện Roland FP-30 có âm thanh chuẩn và cảm giác phím tuyệt vời.",
+        "image": "roland_fp30.jpg",
+        "quantity": 10,
+        "isVisible": true,
+        "views": 180
+      },
+      {
+        "id": 3,
+        "name": "Trống Điện Roland TD-1K",
+        "price": 500,
+        "brandId": 2,
+        "categoryId": 3,
+        "description": "Trống điện tử Roland TD-1K dành cho người mới học và các tay trống chuyên nghiệp.",
+        "image": "roland_td1k.jpg",
+        "quantity": 7,
+        "isVisible": true,
+        "views": 150
+      },
+      {
+        "id": 4,
+        "name": "Ukulele Lanikai LU-21",
+        "price": 60,
+        "brandId": 3,
+        "categoryId": 1,
+        "description": "Ukulele Lanikai LU-21 dễ chơi và rất phổ biến cho người mới.",
+        "image": "lanikai_lu21.jpg",
+        "quantity": 20,
+        "isVisible": true,
+        "views": 130
+      },
+      {
+        "id": 5,
+        "name": "Synthesizer Korg Minilogue",
+        "price": 400,
+        "brandId": 2,
+        "categoryId": 5,
+        "description": "Synthesizer Korg Minilogue có âm thanh tuyệt vời cho nhạc điện tử.",
+        "image": "korg_minilogue.jpg",
+        "quantity": 5,
+        "isVisible": true,
+        "views": 110
+      },
+      {
+        "id": 6,
+        "name": "Violin Yamaha V3",
+        "price": 250,
+        "brandId": 1,
+        "categoryId": 6,
+        "description": "Violin Yamaha V3 dành cho học sinh và sinh viên.",
+        "image": "yamaha_v3.jpg",
+        "quantity": 8,
+        "isVisible": false,
+        "views": 95
+      },
+      {
+        "id": 7,
+        "name": "Bass Guitar Fender Precision",
+        "price": 500,
+        "brandId": 3,
+        "categoryId": 1,
+        "description": "Bass Guitar Fender Precision phù hợp cho nhạc rock và jazz.",
+        "image": "fender_precision.jpg",
+        "quantity": 12,
+        "isVisible": true,
+        "views": 160
+      },
+      {
+        "id": 8,
+        "name": "Trumpet Yamaha YTR-2330",
+        "price": 300,
+        "brandId": 1,
+        "categoryId": 8,
+        "description": "Trumpet Yamaha YTR-2330 phù hợp cho cả người mới và nhạc công chuyên nghiệp.",
+        "image": "yamaha_trumpet.jpg",
+        "quantity": 10,
+        "isVisible": true,
+        "views": 140
+      },
+      {
+        "id": 9,
+        "name": "Saxophone Alto YAS-280",
+        "price": 700,
+        "brandId": 2,
+        "categoryId": 9,
+        "description": "Saxophone Alto YAS-280 có âm thanh tuyệt vời cho nhạc jazz.",
+        "image": "yas280.jpg",
+        "quantity": 6,
+        "isVisible": true,
+        "views": 125
+      },
+      {
+        "id": 10,
+        "name": "Accordion Hohner Bravo III",
+        "price": 400,
+        "brandId": 3,
+        "categoryId": 10,
+        "description": "Accordion Hohner Bravo III rất thích hợp cho nhạc dân gian.",
+        "image": "hohner_bravo.jpg",
+        "quantity": 5,
+        "isVisible": false,
+        "views": 70
+      }
+    ],
+    "brands": [
+      {
+        "id": 1,
+        "name": "Yamaha",
+        "country": "Japan",
+        "image": "yamaha_logo.jpg",
+        "isVisible": true
+      },
+      {
+        "id": 2,
+        "name": "Roland",
+        "country": "Japan",
+        "image": "roland_logo.jpg",
+        "isVisible": true
+      },
+      {
+        "id": 3,
+        "name": "Fender",
+        "country": "USA",
+        "image": "fender_logo.jpg",
+        "isVisible": true
+      },
+      {
+        "id": 4,
+        "name": "Ibanez",
+        "country": "Japan",
+        "image": "ibanez_logo.jpg",
+        "isVisible": false
+      },
+      {
+        "id": 5,
+        "name": "Korg",
+        "country": "Japan",
+        "image": "korg_logo.jpg",
+        "isVisible": true
+      },
+      {
+        "id": 6,
+        "name": "Casio",
+        "country": "Japan",
+        "image": "casio_logo.jpg",
+        "isVisible": true
+      },
+      {
+        "id": 7,
+        "name": "Peavey",
+        "country": "USA",
+        "image": "peavey_logo.jpg",
+        "isVisible": true
+      },
+      {
+        "id": 8,
+        "name": "Gibson",
+        "country": "USA",
+        "image": "gibson_logo.jpg",
+        "isVisible": false
+      },
+      {
+        "id": 9,
+        "name": "Kawai",
+        "country": "Japan",
+        "image": "kawai_logo.jpg",
+        "isVisible": true
+      },
+      {
+        "id": 10,
+        "name": "Roland",
+        "country": "Japan",
+        "image": "roland_logo.jpg",
+        "isVisible": true
+      }
+    ],
+    "postTypes": [
+      {
+        "id": 1,
+        "name": "Bài viết",
+        "isVisible": true
+      },
+      {
+        "id": 2,
+        "name": "Video",
+        "isVisible": true
+      },
+      {
+        "id": 3,
+        "name": "Hình ảnh",
+        "isVisible": false
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "Cách chọn đàn guitar cho người mới bắt đầu",
+        "content": "Đàn guitar có nhiều loại và mẫu mã, dưới đây là một số lưu ý khi chọn mua.",
+        "categoryId": 1,
+        "typeId": 1,
+        "isVisible": true,
+        "views": 300,
+        "image": "guitar_tips.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Đánh giá đàn piano điện Roland FP-30",
+        "content": "Đàn piano điện Roland FP-30 mang lại trải nghiệm âm thanh tuyệt vời cho người chơi.",
+        "categoryId": 2,
+        "typeId": 1,
+        "isVisible": true,
+        "views": 250,
+        "image": "roland_fp30_review.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Hướng dẫn chơi ukulele cho người mới",
+        "content": "Ukulele là một nhạc cụ dễ học và vui vẻ cho mọi lứa tuổi.",
+        "categoryId": 4,
+        "typeId": 2,
+        "isVisible": true,
+        "views": 220,
+        "image": "ukulele_guide.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Cách bảo trì nhạc cụ",
+        "content": "Việc bảo trì đúng cách sẽ giúp nhạc cụ của bạn bền lâu và giữ âm thanh tốt.",
+        "categoryId": 1,
+        "typeId": 3,
+        "isVisible": true,
+        "views": 180,
+        "image": "maintenance_tips.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Khám phá âm nhạc điện tử với Synthesizer Korg",
+        "content": "Synthesizer Korg là một công cụ tuyệt vời cho nhạc sĩ sáng tạo.",
+        "categoryId": 5,
+        "typeId": 1,
+        "isVisible": true,
+        "views": 160,
+        "image": "korg_synthesizer.jpg"
+      }
+    ]
+  }
+  
