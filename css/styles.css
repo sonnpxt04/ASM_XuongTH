@@ -10824,7 +10824,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
- .hihi {
+.container .hihi {
   overflow: hidden;
   background-color: white;
   border: 1px solid #ccc;
@@ -10851,4 +10851,20 @@ textarea.form-control-lg {
   100% {
       transform: translateX(-100%);
   }
+}
+/* Thêm vào file styles.css */
+#brands .container {
+  display: flex;            /* Sử dụng flexbox */
+  overflow-x: auto;        /* Cho phép cuộn ngang nếu quá nhiều hình ảnh */
+  white-space: nowrap;     /* Không ngắt dòng */
+}
+
+#brands .container .item {
+  display: inline-block;    /* Để các phần tử nằm ngang */
+  margin-right: 20px;      /* Thêm khoảng cách giữa các hình ảnh */
+}
+
+.imgbrand {
+  height: 100px;           /* Đặt chiều cao cố định cho hình ảnh */
+  width: auto;             /* Chiều rộng tự động để giữ tỷ lệ */
 }
