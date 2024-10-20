@@ -75,7 +75,7 @@
       {
         "id": 1,
         "name": "Guitar Acoustic Yamaha F310",
-        "price": 120,
+        "price": 1200000,
         "brandId": 1,
         "categoryId": 1,
         "description": "Guitar Acoustic Yamaha F310 là sản phẩm phù hợp cho người mới học.",
@@ -87,7 +87,7 @@
       {
         "id": 2,
         "name": "Piano Điện Roland FP-30",
-        "price": 700,
+        "price": 7000000,
         "brandId": 2,
         "categoryId": 2,
         "description": "Piano điện Roland FP-30 có âm thanh chuẩn và cảm giác phím tuyệt vời.",
@@ -99,7 +99,7 @@
       {
         "id": 3,
         "name": "Trống Điện Roland TD-1K",
-        "price": 500,
+        "price": 5900000,
         "brandId": 2,
         "categoryId": 3,
         "description": "Trống điện tử Roland TD-1K dành cho người mới học và các tay trống chuyên nghiệp.",
@@ -111,7 +111,7 @@
       {
         "id": 4,
         "name": "Ukulele Lanikai LU-21",
-        "price": 60,
+        "price": 67680000,
         "brandId": 3,
         "categoryId": 1,
         "description": "Ukulele Lanikai LU-21 dễ chơi và rất phổ biến cho người mới.",
@@ -123,7 +123,7 @@
       {
         "id": 5,
         "name": "Synthesizer Korg Minilogue",
-        "price": 400,
+        "price": 8949900,
         "brandId": 2,
         "categoryId": 5,
         "description": "Synthesizer Korg Minilogue có âm thanh tuyệt vời cho nhạc điện tử.",
@@ -135,19 +135,19 @@
       {
         "id": 6,
         "name": "Violin Yamaha V3",
-        "price": 250,
+        "price": 2500000,
         "brandId": 1,
         "categoryId": 6,
         "description": "Violin Yamaha V3 dành cho học sinh và sinh viên.",
         "image": "yamaha_v3.jpg",
         "quantity": 8,
-        "isVisible": false,
+        "isVisible": true,
         "views": 95
       },
       {
         "id": 7,
         "name": "Bass Guitar Fender Precision",
-        "price": 500,
+        "price": 50000000,
         "brandId": 3,
         "categoryId": 1,
         "description": "Bass Guitar Fender Precision phù hợp cho nhạc rock và jazz.",
@@ -159,7 +159,7 @@
       {
         "id": 8,
         "name": "Trumpet Yamaha YTR-2330",
-        "price": 300,
+        "price": 3000000,
         "brandId": 1,
         "categoryId": 8,
         "description": "Trumpet Yamaha YTR-2330 phù hợp cho cả người mới và nhạc công chuyên nghiệp.",
@@ -171,7 +171,7 @@
       {
         "id": 9,
         "name": "Saxophone Alto YAS-280",
-        "price": 700,
+        "price": 700000,
         "brandId": 2,
         "categoryId": 9,
         "description": "Saxophone Alto YAS-280 có âm thanh tuyệt vời cho nhạc jazz.",
@@ -183,14 +183,134 @@
       {
         "id": 10,
         "name": "Accordion Hohner Bravo III",
-        "price": 400,
+        "price": 4000000,
         "brandId": 3,
         "categoryId": 10,
         "description": "Accordion Hohner Bravo III rất thích hợp cho nhạc dân gian.",
         "image": "hohner_bravo.jpg",
         "quantity": 5,
-        "isVisible": false,
+        "isVisible": true,
         "views": 70
+      },
+      {
+        "id": 11,
+        "name": "Guitar Classic Cordoba C5",
+        "price": 2290000,
+        "brandId": 1,
+        "categoryId": 1,
+        "description": "Guitar Classic Cordoba C5 là lựa chọn hoàn hảo cho người chơi cổ điển.",
+        "image": "cordoba_c5.jpg",
+        "quantity": 9,
+        "isVisible": true,
+        "views": 100
+      },
+      {
+        "id": 12,
+        "name": "Piano Grand Yamaha C3X",
+        "price": 15000000,
+        "brandId": 1,
+        "categoryId": 2,
+        "description": "Piano Grand Yamaha C3X mang đến âm thanh sang trọng và tinh tế.",
+        "image": "yamaha_c3x.jpg",
+        "quantity": 2,
+        "isVisible": true,
+        "views": 300
+      },
+      {
+        "id": 13,
+        "name": "Drum Kit Pearl Export",
+        "price": 8000000,
+        "brandId": 3,
+        "categoryId": 3,
+        "description": "Drum Kit Pearl Export dành cho mọi phong cách chơi trống.",
+        "image": "pearl_export.jpg",
+        "quantity": 4,
+        "isVisible": true,
+        "views": 210
+      },
+      {
+        "id": 14,
+        "name": "Flute Yamaha YFL-222",
+        "price": 4000000,
+        "brandId": 1,
+        "categoryId": 8,
+        "description": "Flute Yamaha YFL-222 là lựa chọn tuyệt vời cho người mới học.",
+        "image": "yamaha_yfl222.jpg",
+        "quantity": 15,
+        "isVisible": true,
+        "views": 85
+      },
+      {
+        "id": 15,
+        "name": "Electric Guitar Ibanez RG421",
+        "price": 3700000,
+        "brandId": 3,
+        "categoryId": 1,
+        "description": "Ibanez RG421 là cây đàn điện dành cho các rocker đích thực.",
+        "image": "ibanez_rg421.jpg",
+        "quantity": 10,
+        "isVisible": true,
+        "views": 190
+      },
+      {
+        "id": 16,
+        "name": "Cello Yamaha VC5",
+        "price": 1270000,
+        "brandId": 1,
+        "categoryId": 6,
+        "description": "Cello Yamaha VC5 có âm thanh tuyệt vời và dễ chơi.",
+        "image": "yamaha_vc5.jpg",
+        "quantity": 5,
+        "isVisible": true,
+        "views": 65
+      },
+      {
+        "id": 17,
+        "name": "Digital Mixer Behringer X32",
+        "price": 207000500,
+        "brandId": 2,
+        "categoryId": 5,
+        "description": "Behringer X32 là mixer kỹ thuật số với tính năng chuyên nghiệp.",
+        "image": "behringer_x32.jpg",
+        "quantity": 3,
+        "isVisible": true,
+        "views": 240
+      },
+      {
+        "id": 18,
+        "name": "Clarinet Yamaha YCL-255",
+        "price": 45000000,
+        "brandId": 1,
+        "categoryId": 9,
+        "description": "Clarinet Yamaha YCL-255 là lựa chọn phổ biến cho người mới học.",
+        "image": "yamaha_ycl255.jpg",
+        "quantity": 12,
+        "isVisible": true,
+        "views": 160
+      },
+      {
+        "id": 19,
+        "name": "Keyboard Casio CTK-3500",
+        "price": 10000050,
+        "brandId": 3,
+        "categoryId": 5,
+        "description": "Casio CTK-3500 là bàn phím cho người mới bắt đầu.",
+        "image": "casio_ctk3500.jpg",
+        "quantity": 18,
+        "isVisible": true,
+        "views": 175
+      },
+      {
+        "id": 20,
+        "name": "Mandolin Gibson A-Style",
+        "price": 55000000,
+        "brandId": 3,
+        "categoryId": 7,
+        "description": "Mandolin Gibson A-Style có âm thanh cổ điển cho nhạc dân gian.",
+        "image": "gibson_mandolin.jpg",
+        "quantity": 7,
+        "isVisible": true,
+        "views": 90
       }
     ],
     "brands": [
@@ -329,7 +449,7 @@
         "content": "Synthesizer Korg là một công cụ tuyệt vời cho nhạc sĩ sáng tạo.",
         "categoryId": 5,
         "typeId": 1,
-        "isVisible": true,
+        "isVisible": false,
         "views": 160,
         "image": "korg_synthesizer.jpg"
       }
